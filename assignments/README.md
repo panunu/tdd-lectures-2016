@@ -5,19 +5,26 @@
 
 [Gaylord Lohiposki](https://www.linkedin.com/in/gaylord-lohiposki-8852a464), who is a dear fishing buddy of Markku Karhu, has asked Markku for a help.
 
-Lohiposki's latest enterprise (which is also a bit fishy, to be honest) needs a new back-end logic for keeping track of a storage and such. The last software, which Gaylord bought from Silk Road 3.0, did not turn out to be so robust after all, even if the price was low!
+Lohiposki's latest enterprise (which is also a bit fishy, to be honest) needs a new back-end logic for keeping track of a storage and such. The last piece of software, which Gaylord bought from Silk Road 3.0, did not turn out to be so robust after all, even if the price was low! It almost ruined his business.
 
 Luckily Markku, who happens to teach a testing course in Metropolia, knows a bunch of able students who could do the job (and for free, of course). "They even know how to TDD, so the product will be top notch", said Markku to Gaylord. And behold, Gaylord was impressed. A contract was signed with a golden hand shake.
 
 ## Specifications
 
-Luckily Mr. Lohiposki, a future POTUS-elect, has written specifications for the warehouse system, so this sould be easy.
+Luckily Mr. Lohiposki, a future POTUS-elect, has written specifications for the warehouse system, so this should be easy.
 
+```
 So, we have **a warehouse**. One, for now.
 
-The warehouse is filled with boxes. We call single box... wait for it... **a box**.
-Warehouse can take boxes in or send them out. We need to be able to track them.
-So we need to know *how many boxes the warehouse has at the moment*, and *how many have we received* and *sent* for the lifetime of a warehouse.
+The warehouse is filled with boxes. We call single box... wait for it... **a box**. A box has *a weight, in grams*. In this business, this is very important.
+
+Warehouse can *take boxes in* or *send them out*. Where they came from or where they go, we do not care: safer this way.
+
+But we need to be able to track the amount. Therefore I want to know *how many boxes the warehouse has at the moment*, and *how many have we received* and *sent* for the lifetime of a warehouse.
+
+Also, I would like to get some special reporting. I want to know how much money is currently in my warehouse.
+Every *gram in a box* is worth *120 dollars*. And for every box, we count *100 grams extra weight* instead of the actual weight. And now I want a feature for calculating the the total amount in dollars in the warehouse.
+```
 
 ## Tests first!
 
