@@ -1,4 +1,6 @@
-# TDD in Metropolia, November 2016 (Joonas Pajunen, Panu Leppäniemi)
+# TDD in Metropolia, November 2016
+
+By Joonas Pajunen, Panu Leppäniemi / Fraktio.
 
 ## Collection of useful links
 
