@@ -1,6 +1,6 @@
 # Assignments
 
-# 1. Dr.Kobros Bait and Lure Calculator (TM)
+## 1. Dr.Kobros Bait and Lure Calculator (TM)
 
 A customer has reported a bug in Dr. Kobros's BAL app. They say if you  do not choose the size of the motor on your boat, the calculator freezes.
 
@@ -17,11 +17,11 @@ A rumor has been circulating the office that the aforementioned function is badl
 4. Test the refactored/extracted functions
 5. Ensure the original tests also pass
 
-## Test runner
+### Test runner
 
 Run the tests by opening "test-tunner.html" in your browser
 
-# 2. Write a piece of software, tests first!
+## 2. Write a piece of software, tests first!
 
 [Gaylord Lohiposki](https://www.linkedin.com/in/gaylord-lohiposki-8852a464), who is a dear fishing buddy of Markku Karhu, has asked Markku for a help.
 
@@ -31,7 +31,7 @@ Luckily Markku, who happens to teach a testing course in Metropolia, knows a bun
 
 Luckily Mr. Lohiposki, a future POTUS-elect, has written specifications for the warehouse system, so this should be easy.
 
-## Specifications
+### Specifications
 
 So, we have **a warehouse**. One, for now.
 
@@ -44,6 +44,6 @@ But we need to be able to track the amount. Therefore I want to have an automate
 Also, I would like to get some special reporting. I want to know how much money is currently in my warehouse.
 Every *gram in a box* is worth *120 dollars*. And for every box, we count *100 grams extra weight* instead of the actual weight. And now I want a feature for calculating the *total amount in dollars in the warehouse*.
 
-## Again, tests first!
+### Again, tests first!
 
 Remember, Gaylord demands **tests first**! His Kopi Luwak business is very dear to him. So no code before the screen is red.
