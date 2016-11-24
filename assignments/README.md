@@ -21,6 +21,8 @@ A rumor has been circulating the office that the aforementioned function is badl
 
 Run the tests by opening "test-tunner.html" in your browser
 
+----------------------------------------------
+
 ## 2. Write a piece of software, tests first!
 
 [Gaylord Lohiposki](https://www.linkedin.com/in/gaylord-lohiposki-8852a464), who is a dear fishing buddy of Markku Karhu, has asked Markku for a help.
