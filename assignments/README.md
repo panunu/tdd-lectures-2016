@@ -22,9 +22,8 @@ Warehouse can *take boxes in* or *send them out*. Where they came from or where 
 But we need to be able to track the amount. Therefore I want to have an automated **supervisor**. It knows *how many boxes the warehouse has at the moment*, and *how many have we received* and *sent* for the lifetime of a warehouse.
 
 Also, I would like to get some special reporting. I want to know how much money is currently in my warehouse.
-Every *gram in a box* is worth *120 dollars*. And for every box, we count *100 grams extra weight* instead of the actual weight. And now I want a feature for calculating the the total amount in dollars in the warehouse.
+Every *gram in a box* is worth *120 dollars*. And for every box, we count *100 grams extra weight* instead of the actual weight. And now I want a feature for calculating the *total amount in dollars in the warehouse*.
 
 ## Again, tests first!
 
-Remember, Gaylord demands **tests first**! His Kopi Luwak business is very dear to him.
-So no code before the screen is red.
+Remember, Gaylord demands **tests first**! His Kopi Luwak business is very dear to him. So no code before the screen is red.
