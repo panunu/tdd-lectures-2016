@@ -1,6 +1,6 @@
 # TDD in Metropolia, November 2016
 
-By Joonas Pajunen, Panu Leppäniemi / Fraktio.
+By Joonas Pajunen, Panu Leppäniemi / [Fraktio](https://fraktio.fi).
 
 ## Collection of useful links
 
