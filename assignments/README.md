@@ -13,9 +13,9 @@ Luckily Markku, who happens to teach a testing course in Metropolia, knows a bun
 
 Luckily Mr. Lohiposki, a future POTUS-elect, has written specifications for the warehouse system, so this sould be easy.
 
-So, we have a warehouse. One, for now.
+So, we have **a warehouse**. One, for now.
 
-The warehouse contains boxes. We call single box... **a box**.
+The warehouse contains boxes. We call single box... wait for it... **a box**.
 So the warehouse can take boxes in or send them out. We need to be able to track them.
 
 ## Tests first!
