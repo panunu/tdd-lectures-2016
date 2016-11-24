@@ -9,11 +9,10 @@ Lohiposki's latest enterprise (which is also a bit fishy, to be honest) needs a 
 
 Luckily Markku, who happens to teach a testing course in Metropolia, knows a bunch of able students who could do the job (and for free, of course). "They even know how to TDD, so the product will be top notch", said Markku to Gaylord. And behold, Gaylord was impressed. A contract was signed with a golden hand shake.
 
-## Specifications
-
 Luckily Mr. Lohiposki, a future POTUS-elect, has written specifications for the warehouse system, so this should be easy.
 
-```
+## Specifications
+
 So, we have **a warehouse**. One, for now.
 
 The warehouse is filled with boxes. We call single box... wait for it... **a box**. A box has *a weight, in grams*. In this business, this is very important.
@@ -24,8 +23,8 @@ But we need to be able to track the amount. Therefore I want to know *how many b
 
 Also, I would like to get some special reporting. I want to know how much money is currently in my warehouse.
 Every *gram in a box* is worth *120 dollars*. And for every box, we count *100 grams extra weight* instead of the actual weight. And now I want a feature for calculating the the total amount in dollars in the warehouse.
-```
 
-## Tests first!
+## Again, tests first!
 
-Remember, Gaylord demands **tests first**! So no code before the screen is red.
+Remember, Gaylord demands **tests first**! His Kopi Luwak business is very dear to him.
+So no code before the screen is red.
