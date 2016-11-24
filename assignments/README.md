@@ -17,7 +17,9 @@ A rumor has been circulating the office that the aforementioned function is badl
 4. Test the refactored/extracted functions
 5. Ensure the original tests also pass
 
-### Test runner
+### How to start
+
+Download or clone this repository, and check the folder [assignments/assignment-1-bait-and-lure](https://github.com/panunu/tdd-lectures-2016/tree/master/assignments/assignment-1-bait-and-lure). 
 
 Run the tests by opening "test-tunner.html" in your browser
 
