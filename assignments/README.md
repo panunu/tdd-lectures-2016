@@ -15,8 +15,9 @@ Luckily Mr. Lohiposki, a future POTUS-elect, has written specifications for the 
 
 So, we have **a warehouse**. One, for now.
 
-The warehouse contains boxes. We call single box... wait for it... **a box**.
-So the warehouse can take boxes in or send them out. We need to be able to track them.
+The warehouse is filled with boxes. We call single box... wait for it... **a box**.
+Warehouse can take boxes in or send them out. We need to be able to track them.
+So we need to know *how many boxes the warehouse has at the moment*, and *how many have we received* and *sent* for the lifetime of a warehouse.
 
 ## Tests first!
 
