@@ -50,4 +50,4 @@ Every *gram in a box* is worth *120 dollars*. And for every box, we count *100 g
 
 ### Again, tests first!
 
-Remember, Gaylord demands **tests first**! His Kopi Luwak business is very dear to him. So no code before the screen is red.
+Remember, Gaylord demands **tests first**! His Kopi Luwak business is very dear to him.
