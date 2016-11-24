@@ -21,7 +21,7 @@ A rumor has been circulating the office that the aforementioned function is badl
 
 Download or clone this repository, and check the folder [assignments/assignment-1-bait-and-lure](https://github.com/panunu/tdd-lectures-2016/tree/master/assignments/assignment-1-bait-and-lure). 
 
-Run the tests by opening "test-tunner.html" in your browser
+Run the tests by opening `test-tunner.html` in your browser.
 
 ----------------------------------------------
 
