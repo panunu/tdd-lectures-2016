@@ -2,9 +2,9 @@
 
 ## 1. Dr.Kobros Bait and Lure Calculator (TM)
 
-A customer has reported a bug in Dr. Kobros's BAL app. They say if you  do not choose the size of the motor on your boat, the calculator freezes.
+A customer has reported a bug in Dr. Kobros's BALC app. They say if you  do not choose the size of the motor on your boat, the calculator freezes.
 
-A QA Specialist at Dr. Kobros Software has tracked the problem to a function within the BAL application. To solve the problem, we have extracted the function, and a corresponding test. Your immediate job is to:
+A QA Specialist at [Kobros Digital](http://dr-kobros.com/corporate) has tracked the problem to a function within the BALC application. To solve the problem, we have extracted the function, and a corresponding test. Your immediate job is to:
 
 1. Reproduce the bug by creating a failing test with the mentioned erroneus input
 2. Fix the bug, and pass the test
