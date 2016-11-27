@@ -54,4 +54,4 @@ Remember, Gaylord demands **tests first**! His Kopi Luwak business is very dear 
 
 ### How to start
 
-You can set up a testing environment yourself or check out the folder [assignments/assignment-2](https://github.com/panunu/tdd-lectures-2016/tree/master/assignments/assignment-2/Warehouserizer).
+You can set up a testing environment yourself or check out the folder [assignments/assignment-2](https://github.com/panunu/tdd-lectures-2016/tree/master/assignments/assignment-2/Warehouserizer) which contains a Java (NetBeans) project.
