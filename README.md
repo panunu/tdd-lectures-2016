@@ -4,7 +4,15 @@
 
 By Joonas Pajunen, Panu Leppäniemi / [Fraktio](https://fraktio.fi).
 
-## Collection of useful links
+## Basics of TDD
+
+1. Test
+2. Code
+3. Refactor.
+
+Repeat!
+
+## Collection of (useful) links
 
 - Short and simple video tutorial on JUnit (https://www.youtube.com/watch?v=lYnMyi81hrs)
 - What is IOC? What about Dependency Injection? http://martinfowler.com/articles/injection.html
