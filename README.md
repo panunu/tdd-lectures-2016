@@ -1,3 +1,5 @@
+![TDD](tdd.png?raw=true "TDD")
+
 # TDD in Metropolia, November 2016
 
 By Joonas Pajunen, Panu Leppäniemi / [Fraktio](https://fraktio.fi).
