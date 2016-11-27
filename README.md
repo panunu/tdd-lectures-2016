@@ -4,13 +4,13 @@
 
 By Joonas Pajunen, Panu Leppäniemi / [Fraktio](https://fraktio.fi).
 
-## Basics of TDD
+## Basics
 
 1. Test
 2. Code
 3. Refactor.
 
-Repeat!
+Repeat! Keep the loop as fast as possible.
 
 ## Collection of (useful) links
 
