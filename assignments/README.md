@@ -51,3 +51,7 @@ Every *gram in a box* is worth *120 dollars*. And for every box, we count *100 g
 ### Again, tests first!
 
 Remember, Gaylord demands **tests first**! His Kopi Luwak business is very dear to him.
+
+### How to start
+
+You can set up a testing environment yourself or check out the folder [assignments/assignment-2](https://github.com/panunu/tdd-lectures-2016/tree/master/assignments/assignment-2/Warehouserizer).
