@@ -10,7 +10,7 @@ By Joonas Pajunen, Panu Leppäniemi / [Fraktio](https://fraktio.fi).
 2. Code
 3. Refactor.
 
-Repeat! Keep the loop as fast as possible.
+Repeat! Keep the loop as fast as possible. That's it :-)
 
 ## Collection of (useful) links
 
