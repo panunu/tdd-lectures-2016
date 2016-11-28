@@ -41,12 +41,12 @@ So, we have **a warehouse**. One, for now.
 
 The warehouse is filled with boxes. We call single box... wait for it... **a box**. A box has *a weight, in grams*. In this business, this is very important.
 
-Warehouse can *take boxes in* or *send them out*. Where they came from or where they go, we do not care: it's safer this way.
+Warehouse can *take boxes in* or *send them out*. Where they came from or where they go, we do not care.
 
 But we need to be able to track the amount. Therefore I want to have an automated **supervisor**. It knows *how many boxes the warehouse has at the moment*, and *how many have we received* and *sent* for the lifetime of a warehouse.
 
 Also, I would like to get some special reporting. I want to know how much money is currently in my warehouse.
-Every *gram in a box* is worth *120 dollars*. And for every box, we count *100 grams extra weight* instead of the actual weight. And now I want a feature for calculating the *total amount in dollars in the warehouse*.
+Every *100 grams in a box* is worth *70 dollars*. And for every box, we count *100 grams extra weight* instead of the actual weight. And now I want a feature for calculating the *total amount in dollars in the warehouse*.
 
 ### Again, tests first!
 
