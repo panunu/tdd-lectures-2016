@@ -6,27 +6,26 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class SupervisorTest {
-    private Warehouse warehouse; // This shall be the SUT, i.e. System Under Test.
-            
-    @BeforeClass
-    public static void setUpClass() {
-        // You can do some setup here once before the tests in class are run.
+    @Test
+    public void supervisorCountsTheAmountOfBoxes() {
+        Warehouse warehouse = new Warehouse();
+        warehouse.receive(new Box(1, 100));        
+        warehouse.receive(new Box(2, 200));
+        
+        Supervisor s = new Supervisor(warehouse);
+        
+        assertEquals(2, s.countBoxes());
     }
     
-    @Before
-    public void setUp() {
-        // You can do some setup here before each test.
-        this.warehouse = new Warehouse();
-    }
-
+    
     @Test
-    public void warehouseStartsOperatingCorrectly() {
-        Boolean actual = warehouse.startOperation();
-        Boolean expected = true;
+    public void supervisorCountsTheAmountOfMoney() {
+        Warehouse warehouse = new Warehouse();
+        warehouse.receive(new Box(1, 100));        
+        warehouse.receive(new Box(2, 200));
         
-        assertEquals(expected, actual);
+        Supervisor s = new Supervisor(warehouse);
         
-        // Or another way of writing this, without redundant variables (which might sometimes be bad).
-        assertEquals(true, warehouse.startOperation());
+        assertEquals(300 + 2 * 100 * 70, s.countMoney());
     }
 }

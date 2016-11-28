@@ -3,7 +3,7 @@ package kobros;
 public class Box {
     private int weightInGrams;
 
-    public Box(int weightInGrams) {
+    public Box(int id, int weightInGrams) {
         this.weightInGrams = weightInGrams;
     }
 

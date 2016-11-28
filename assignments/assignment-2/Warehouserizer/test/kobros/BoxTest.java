@@ -9,7 +9,7 @@ import kobros.Box;
 public class BoxTest {
     @Test
     public void getsWeightCorrectly() { // TODO: Consider if tests like these are really useful.
-        int actual = new Box(200).getGrams();
+        int actual = new Box(1, 200).getGrams();
         int expected = 200;
         
         assertEquals(expected, actual);

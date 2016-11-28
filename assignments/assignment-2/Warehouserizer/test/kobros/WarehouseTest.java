@@ -33,7 +33,7 @@ public class WarehouseTest {
     
     @Test
     public void warehouseCanTakeBoxesIn() {
-        Box box = new Box(100);
+        Box box = new Box(1, 100);
         
         this.warehouse.receive(box);
         
@@ -42,7 +42,7 @@ public class WarehouseTest {
     
     @Test
     public void warehouseCanSendBoxesOut() {
-        Box box = new Box(100);
+        Box box = new Box(1, 100);
         this.warehouse.receive(box);
         this.warehouse.send(box);
 
