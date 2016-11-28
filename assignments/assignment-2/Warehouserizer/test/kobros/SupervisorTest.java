@@ -17,7 +17,6 @@ public class SupervisorTest {
         assertEquals(2, s.countBoxes());
     }
     
-    
     @Test
     public void supervisorCountsTheAmountOfMoney() {
         Warehouse warehouse = new Warehouse();
@@ -26,6 +25,6 @@ public class SupervisorTest {
         
         Supervisor s = new Supervisor(warehouse);
         
-        assertEquals(300 + 2 * 100 * 70, s.countMoney());
+        assertEquals((300 + (2 * 100)) / 100 * 70.0, s.countMoney(), 0.0001);
     }
 }
