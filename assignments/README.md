@@ -41,7 +41,7 @@ Luckily Mr. Lohiposki, a future POTUS-elect, has written specifications for the 
 
 So, we have **a warehouse**. One, for now.
 
-The warehouse is filled with boxes. We call single box... wait for it... **a box**. A box has *a weight, in grams*. In this business, this is very important.
+The warehouse is filled with boxes. We call single box... wait for it... **a box**. A box has *a weight, in grams* and *an unique identifier*. In this business, this is very important.
 
 Warehouse can *take boxes in* or *send them out*. Where they came from or where they go, we do not care.
 
