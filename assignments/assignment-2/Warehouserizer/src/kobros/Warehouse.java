@@ -1,13 +1,23 @@
 package kobros;
 
+import java.util.ArrayList;
+
 public class Warehouse {
-    public Warehouse() {
-        
-    }
+    private ArrayList<Box> boxes = new ArrayList<>();
     
     public boolean startOperation() {
-        System.out.println("Warehouse constructed.");
-        
-        return false;
+        return true;
+    }
+    
+    public ArrayList<Box> getBoxes() {
+        return boxes;
+    }
+    
+    public void receive(Box box) {
+        boxes.add(box);
+    }
+    
+    public void send(Box box) {
+        boxes.remove(box);
     }
 }
