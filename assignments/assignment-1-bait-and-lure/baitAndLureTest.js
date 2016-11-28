@@ -37,11 +37,17 @@ describe("Get proper baits and lures for rowboats and such", function() {
   });
 })
 
-
+describe("No horsepower", function() {
+  it("get a default lure when no horsepower is set", function() {
+    var result = getBaitAndLure(false, 'short');
+    expect(result).toEqual(['freshStrawberryBait', 'regularLure']);
+  });
+});
 
 describe("Lures", function() {
   it("gets a speedlure lure for large horsepowers", function() {
     var result = getLure(9001);
+    expect(result).toEqual('speedLure');
     var result = getLure(8329001);
     expect(result).toEqual('speedLure');
   });
@@ -57,19 +63,8 @@ describe("Lures", function() {
     expect(result).toEqual('regularLure');
   });
 
-  it("fail if no horsepower defined", function() {
-    // why doesn't Jasmine catch the error?
-    // expect(getBaitAndLure(false, 'short')).toThrowError(Error);
-
-    // workaround for testing the failing case
-    try {
-      getBaitAndLure(false, 'short')
-
-      fail('There should have been an expection')
-    } catch (e) {
-      expect(e.message).toEqual('undefined horsepower');
-    }
-
+  it("return regularLure if no horsepower defined", function() {
+    expect(getLure()).toEqual('regularLure');
   });
 });
 
