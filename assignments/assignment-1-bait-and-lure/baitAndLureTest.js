@@ -13,6 +13,26 @@ describe("Get proper baits and lures for powerboats", function() {
     var result = getBaitAndLure(false, 'short', 119500);
     expect(result).toEqual(['freshStrawberryBait', 'speedLure']);
   });
+
+  it("get a regularlure with horsepower of 9000", function() {
+    var result = getBaitAndLure(false, 'short', 9000);
+    expect(result).toEqual(['freshStrawberryBait', 'regularLure']);
+  });
+
+  it("fail if no horsepower defined", function() {
+    // why doesn't Jasmine catch the error?
+    // expect(getBaitAndLure(false, 'short')).toThrowError(Error);
+
+    // workaround for testing the failing case
+    try {
+      getBaitAndLure(false, 'short')
+
+      fail('There should have been an expection')
+    } catch (e) {
+      expect(e.message).toEqual('undefined horsepower');
+    }
+
+  });
 });
 
 describe("Get proper baits and lures for rowboats and such", function() {
