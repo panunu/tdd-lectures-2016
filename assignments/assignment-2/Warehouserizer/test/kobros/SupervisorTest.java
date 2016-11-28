@@ -12,9 +12,9 @@ public class SupervisorTest {
         warehouse.receive(new Box(1, 100));        
         warehouse.receive(new Box(2, 200));
         
-        Supervisor s = new Supervisor(warehouse);
+        Supervisor s = new Supervisor();
         
-        assertEquals(2, s.countBoxes());
+        assertEquals(2, s.countBoxes(warehouse));
     }
     
     @Test
@@ -23,8 +23,8 @@ public class SupervisorTest {
         warehouse.receive(new Box(1, 100));        
         warehouse.receive(new Box(2, 200));
         
-        Supervisor s = new Supervisor(warehouse);
+        Supervisor s = new Supervisor();
         
-        assertEquals((300 + (2 * 100)) / 100 * 70.0, s.countMoney(), 0.0001);
+        assertEquals((300 + (2 * 100)) / 100 * 70.0, s.countMoney(warehouse), 0.0001);
     }
 }

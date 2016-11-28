@@ -1,21 +1,15 @@
 package kobros;
 
 public class Supervisor {
-    private Warehouse warehouse;
-    
-    public Supervisor(Warehouse warehouse) { // Is this the optimal way?
-        this.warehouse = warehouse;
+    public int countBoxes(Warehouse warehouse) {
+        return warehouse.getBoxes().size();
     }
     
-    public int countBoxes() { // Or could these take the warehouse as a parameter?
-        return this.warehouse.getBoxes().size();
-    }
-    
-    public double countMoney() {
+    public double countMoney(Warehouse warehouse) {
         int pricePerHundredGrams = 70;
         int totalGrams = 0;
         
-        for (Box box : this.warehouse.getBoxes()) {
+        for (Box box : warehouse.getBoxes()) {
             totalGrams += box.getGrams() + 100;
         }
         
