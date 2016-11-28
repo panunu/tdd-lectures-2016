@@ -29,3 +29,12 @@ function getBaitAndLure(saltWater, rodType, motorHorsePower) {
     return combo
   }
 }
+
+
+function getLure(motorHorsePower) {
+
+}
+
+function getBait(saltWater, rodType) {
+
+}

@@ -51,3 +51,40 @@ describe("Get proper baits and lures for rowboats and such", function() {
     expect(result).toEqual(['freshStrawberryBait', 'regularLure']);
   });
 })
+
+
+
+describe("Get lures for different horsepowers", function() {
+  it("gets a speedlure lure for large horsepowers", function() {
+    var result = getLure(9001);
+    var result = getLure(8329001);
+    expect(result).toEqual('speedLure');
+  });
+
+  it("gets a regular lure lure for low or zero horsepowers", function() {
+    var result = getLure(0);
+    expect(result).toEqual('regularLure');
+
+    var result = getLure(20);
+    expect(result).toEqual('regularLure');
+
+    var result = getLure(9000);
+    expect(result).toEqual('regularLure');
+  });
+});
+
+describe("Baits", function() {
+  it("return baits for water and rod combinations", function() {
+    var result = getBait(false, 'short', 8990);
+    expect(result).toEqual('freshStrawberryBait');
+
+    var result = getBait(false, 'long', 8990);
+    expect(result).toEqual('freshSausageBait');
+
+    var result = getBait(true, 'short', 8990);
+    expect(result).toEqual('saltyMeatballBait');
+
+    var result = getBait(true, 'long', 8990);
+    expect(result).toEqual('saltySpaghettiBait');
+  });
+});
