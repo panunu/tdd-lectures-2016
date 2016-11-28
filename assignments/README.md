@@ -23,6 +23,8 @@ Download or clone this repository, and check the folder [assignments/assignment-
 
 Run the tests by opening `test-tunner.html` in your browser.
 
+See https://jasmine.github.io/2.5/introduction for test framework docs.
+
 ----------------------------------------------
 
 ## 2. Write a piece of software, tests first!
