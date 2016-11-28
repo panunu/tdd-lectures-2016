@@ -1,9 +1,13 @@
 function getBaitAndLure(saltWater, rodType, motorHorsePower) {
 
+  if (typeof motorHorsePower === 'undefined') {
+    throw new Error('undefined horsepower')
+  }
+
+  var lure = 'regularLure'
+
   if (motorHorsePower > 9000) {
-    var lure = 'speedLure'
-  } else if (motorHorsePower < 9000) {
-    var lure = 'regularLure'
+    lure = 'speedLure'
   }
 
   if (saltWater) {
