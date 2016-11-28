@@ -1,5 +1,9 @@
 function getBaitAndLure(saltWater, rodType, motorHorsePower) {
+  return [getBait(saltWater, rodType), getLure(motorHorsePower)]
+}
 
+
+function getLure(motorHorsePower) {
   if (typeof motorHorsePower === 'undefined') {
     throw new Error('undefined horsepower')
   }
@@ -10,31 +14,21 @@ function getBaitAndLure(saltWater, rodType, motorHorsePower) {
     lure = 'speedLure'
   }
 
-  if (saltWater) {
-    if (rodType === 'long') {
-      var combo = ['saltySpaghettiBait', lure]
-    } else {
-      var combo = ['saltyMeatballBait', lure]
-    }
-
-    return combo
-  } else {
-
-    if (rodType === 'short') {
-      var combo = ['freshStrawberryBait', lure]
-    } else if (rodType === 'long') {
-      var combo = ['freshSausageBait', lure]
-    }
-
-    return combo
-  }
-}
-
-
-function getLure(motorHorsePower) {
-
+  return lure
 }
 
 function getBait(saltWater, rodType) {
+  if (saltWater) {
+    if (rodType === 'long') {
+      return'saltySpaghettiBait'
+    } else {
+      return'saltyMeatballBait'
+    }
+  }
 
+  if (rodType === 'short') {
+    return'freshStrawberryBait'
+  } else if (rodType === 'long') {
+    return'freshSausageBait'
+  }
 }
